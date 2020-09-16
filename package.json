@@ -1,6 +1,6 @@
 {
-  "name": "relaxedjs",
-  "version": "0.2.4",
+  "name": "reschandr-html-to-pdf",
+  "version": "0.0.1",
   "description": "Create PDF documents using web technologies (PDF/SCSS)",
   "main": "src/masterToPDF.js",
   "bin": {
@@ -42,5 +42,21 @@
     "mocha": "^5.2.0",
     "pdf-image": "^2.0.0",
     "pixel-diff": "^1.0.1"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReschAndr/html-to-pdf.git"
+  },
+  "keywords": [
+    "html-to-pdf",
+    "pdf",
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/ReschAndr/html-to-pdf/issues"
   }
 }
