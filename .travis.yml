@@ -10,3 +10,11 @@ before_install:
 
 before_script:
   - npm link
+
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: reschan12345+npm@gmail.com
+  api_key: $NPM_API_KEY
+  on:
+    repo: ReschAndr/html-to-pdf
